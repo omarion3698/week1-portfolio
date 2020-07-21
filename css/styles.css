@@ -1,7 +1,7 @@
 body {
-  background-color: aliceblue;
-  margin: 0px;
-  padding: 0px;
+  background-color: rgb(236, 223, 223);
+  margin: 5px;
+  padding: 5px;
 }
 ul {
   list-style: none;
@@ -14,13 +14,14 @@ section{
   height: 95vh;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 45px;
-  background-color: violet;
+  height: 60px;
+  background-color: rgb(60, 38, 184);
   padding: 0px;
 }
 nav ul {
@@ -29,13 +30,13 @@ nav ul {
 nav ul li a {
   margin: 30px;
   font-family: sans-serif;
-  color: tomato;
+  color: rgb(22, 41, 35);
   font-size: 15px;
   font-weight: 500;
 }
 .logo {
   font-family: sans-serif;
-  color: black;
+  color: rgb(27, 15, 15);
   font-size: 30px;
 }
 .active {
@@ -44,19 +45,19 @@ nav ul li a {
 .text-contaier  p:nth-child(1) {
   font-family: sans-serif;
   font-weight: 900;
-  color: #6d6d6d;
+  color: #59d2d665;
   font-size: 30px;
 }
 .text-contaier p:nth-child(2) {
   font-family: sans-serif;
   font-weight: 900;
   letter-spacing: 1px;
-  color: tomato;
+  color: rgb(0, 0, 0);
   font-size: 40px;
 }
 .text-contaier p:nth-child(3) {
   font-family: sans-serif;
-  color: black;
+  color: rgb(17, 8, 8);
   font-size: 20px;
   line-height: 25px;
 }
@@ -68,4 +69,103 @@ nav ul li a {
   position: absolute;
   left: 13%;
   top: 42%;
+}
+.text-contaier button {
+  width: 130px;
+  height: 30px;
+  border-radius: 7px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  outline: none;
+  margin: 0px 10px;
+}
+.congrats-btn {
+  border: 3px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+.support-btn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 0px;
+}
+button:active {
+  transform: scale(1.1);
+}
+.OMAR {
+  height: 500px;
+  position: absolute;
+  bottom: 0px;
+  left: 70%;
+}
+.about-container {
+  width: 80%;
+  height: 300px;
+  background-color: rgb(13, 5, 255);
+  border-radius: 15px;
+  display: flex;
+  margin: 10px auto 25px;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-container img {
+  height: 200px;
+}
+.about-text {
+  width: 500px;
+}
+.about-text p:nth-child(1) {
+  color: rgb(241, 111, 3);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 0px;
+}
+.about-text p:nth-child(2) {
+  color: #f30606;
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 5px;
+}
+.about-text p:nth-child(3),
+.about-text p:nth-child(4) {
+  color: #050303;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.about-text button {
+  width: 120px;
+  height: 40px;
+  color: #1b0303;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgba(45, 48, 45, 0.685);
+}
+.goal {
+  height: 280px;
+  background-color: rgb(13, 5, 255);
+  padding: 2% 10% 0px 10%;
+}
+.goal-text p:nth-child(1) {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: #000000f8;
+  font-size: 30px;
+  line-height: 0px;
+}
+.goal-text p:nth-child(2) {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: #000000fa;
+  font-size: 15px;
+  line-height: 5px;
+}
+.goal-text p:nth-child(3) {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #000000fd;
+}
+.goal-text {
+  width: 500px;
+  margin: 55px 0px;
 }
