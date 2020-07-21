@@ -6,6 +6,9 @@ Omar Abdirahman Hussein.
 ## Description
 This website simply describes me!
 
+## Link to live GitHub pages
+https://omarion3698.github.io/week1-portfolio/
+
 ## Set up instructions
 Step1:Git init
 
